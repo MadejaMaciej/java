@@ -55,7 +55,7 @@ $(document).ready(()=>{
                 
             }
             dates = dates.sort()
-            for(var i = 0; i < dates.length; i++){
+            for(var i = dates.length-1; i >= 0; i--){
                 for(var j = 0; j < helpDates.length; j++){
                     if(dates[i] == helpDates[j]){
                         var d = new Date(res[(j*3)+2]);
@@ -63,7 +63,6 @@ $(document).ready(()=>{
                     }
                 }
             }
-            console.log(dates.sort())
         },
         error: function (xhr, ajaxOptions, thrownError) {
             console.log(xhr, ajaxOptions, thrownError)
