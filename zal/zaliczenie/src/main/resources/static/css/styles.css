@@ -1,0 +1,149 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.twitter-bg {
+    background: url("../img/bg.png");
+    height: 100vh;
+}
+
+.dark-bg {
+    background: #1c1b22;
+}
+
+.vh100 {
+    height: 100vh;
+}
+
+.w-max {
+    width: max-content;
+}
+
+.middle-alligned {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.white-font {
+    color: #fff;
+}
+
+.show-mobile {
+    display: none;
+}
+
+.dark-font{
+    color: #1c1b22; 
+}
+
+.like-button {
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #66CD00;
+    border: none;
+}
+
+.like-button:hover {
+    text-decoration: none;
+    color:#D8D8D8;
+    transition: 0.2s;
+}
+
+.red-font {
+    color: #f3208a
+}
+
+.w300 {
+    width: 300px;
+}
+
+.w150 {
+    width: 150px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: auto;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.max-width-300 {
+    width: 300px;
+}
+
+.one-user{
+    background-color: #f1f1f1;
+
+}
+.watch-button{
+    width: max-content;
+    padding: 10px 20px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    background: #FF0000;
+}
+
+.overflow-x {
+    overflow-x: scroll;
+    display: -webkit-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .textarea{
+      width: 600px;
+      height:200px;
+      margin-bottom: 20px; 
+  }
+
+  .create-post {
+      text-align: center;
+  }
+
+  .hr {
+      border: 3px solid #fff;
+  }
+
+@media (max-width: 767px){
+    .show-mobile{
+        display: block;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 700px){
+    .textarea{
+        width: 300px;
+        height:100px;
+    }
+}
